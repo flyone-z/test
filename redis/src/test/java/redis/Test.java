@@ -78,6 +78,8 @@ public class Test {
 		
 		String hget = jedisCluster.hget("user", "name");
 		System.out.println(hget);
+		
+		System.out.println("第一个测试项目");
 	}
 	
 }
